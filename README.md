@@ -11,7 +11,7 @@ A basic main view from where you can navigate to views made with:
 - SwiftUI
 
 ## TO DO
-[ ] Document code, to make the project self-explanatory to newbies
-[ ] Localize, so more people can learn from it
-[ ] Tables/lists
-[ ] Forms
+- [ ] Document code, to make the project self-explanatory to newbies
+- [ ] Localize, so more people can learn from it
+- [ ] Tables/lists
+- [ ] Forms
