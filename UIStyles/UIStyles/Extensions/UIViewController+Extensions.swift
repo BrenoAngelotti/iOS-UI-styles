@@ -9,13 +9,18 @@ import UIKit
 
 extension UIViewController {
 	func showDemoAlert() {
-		let alert = UIAlertController(title: "Alerta", message: "Isso é um alerta", preferredStyle: .alert)
+		let alertTitle = String(localized: "alert-title")
+		let alertMessage = String(localized: "alert-message")
 		
-		let backHomeAction = UIAlertAction(title: "Voltar", style: .destructive) { [weak self] _ in
+		let alert = UIAlertController(title: alertTitle, message: alertMessage, preferredStyle: .alert)
+		
+		let returnText = String(localized: "return")
+		let backHomeAction = UIAlertAction(title: returnText, style: .destructive) { [weak self] _ in
 			self?.navigationController?.popViewController(animated: true)
 		}
 		
-		let cancelAction = UIAlertAction(title: "Cancelar", style: .cancel)
+		let cancelText = String(localized: "cancel")
+		let cancelAction = UIAlertAction(title: cancelText, style: .cancel)
 		
 		alert.addAction(backHomeAction)
 		alert.addAction(cancelAction)

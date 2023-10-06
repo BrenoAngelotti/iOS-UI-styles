@@ -24,7 +24,7 @@ class MainViewController: UIViewController {
 		let vc = UIHostingController(rootView: SwiftUIView(dismissAction: { [weak self] in
 			self?.navigationController?.popViewController(animated: true)
 		}))
-//		vc.title = "SwiftUI"
+		vc.title = String(localized: "swiftui")
 		navigationController?.pushViewController(vc, animated: true)
 	}
 }

@@ -1,0 +1,39 @@
+
+/* Class = "UIButton"; configuration.title = "View Code"; ObjectID = "1IJ-sA-rCB"; */
+"1IJ-sA-rCB.configuration.title" = "View Code";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "1IJ-sA-rCB"; */
+"1IJ-sA-rCB.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "XIB"; ObjectID = "2DI-Ll-Cv9"; */
+"2DI-Ll-Cv9.configuration.title" = "XIB";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "2DI-Ll-Cv9"; */
+"2DI-Ll-Cv9.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "SwiftUI"; ObjectID = "43Y-wu-PSy"; */
+"43Y-wu-PSy.configuration.title" = "SwiftUI";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "43Y-wu-PSy"; */
+"43Y-wu-PSy.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Storyboard"; ObjectID = "6xP-Ty-YkD"; */
+"6xP-Ty-YkD.configuration.title" = "Storyboard";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "6xP-Ty-YkD"; */
+"6xP-Ty-YkD.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Mostrar alerta"; ObjectID = "9Kw-Cr-5kn"; */
+"9Kw-Cr-5kn.configuration.title" = "Mostrar alerta";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "9Kw-Cr-5kn"; */
+"9Kw-Cr-5kn.normalTitle" = "Button";
+
+/* Class = "UINavigationItem"; title = "Storyboard"; ObjectID = "CL1-38-M43"; */
+"CL1-38-M43.title" = "Storyboard";
+
+/* Class = "UINavigationItem"; title = "UI Styles"; ObjectID = "GRD-ah-Eab"; */
+"GRD-ah-Eab.title" = "UI Styles";
+
+/* Class = "UIViewController"; title = "UI Styles"; ObjectID = "pC3-TT-Irq"; */
+"pC3-TT-Irq.title" = "UI Styles";

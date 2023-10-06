@@ -12,14 +12,15 @@ class ViewCodeViewController: UIViewController {
 	lazy var showAlertButton: UIButton = {
 		let button = UIButton(configuration: .gray())
 		button.translatesAutoresizingMaskIntoConstraints = false
-		button.setTitle("Mostrar alerta", for: .normal)
+		let alertTitle = String(localized: "show-alert")
+		button.setTitle(alertTitle, for: .normal)
 		button.addTarget(self, action: #selector(showAlertButtonTapped), for: .touchUpInside)
 		return button
 	}()
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		title = "View Code"
+		title = String(localized: "view-code")
 		view.backgroundColor = .systemBackground
 		setupViews()
 		setupConstraints()
