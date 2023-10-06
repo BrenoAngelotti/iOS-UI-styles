@@ -20,7 +20,7 @@ struct SwiftUIView: View {
 				Button {
 					showingAlert.toggle()
 				} label: {
-					Text("Mostrar Alerta")
+					Text("show-alert")
 				}
 				.buttonStyle(.bordered)
 
@@ -28,23 +28,22 @@ struct SwiftUIView: View {
 			}
 			Spacer()
 		}
-		.alert("Alerta", isPresented: $showingAlert, actions: {
+		.alert("alert-title", isPresented: $showingAlert, actions: {
 			Button(role: .destructive) {
 				dismissAction()
 			} label: {
-				Text("Voltar")
+				Text("return")
 			}
 			
 			Button(role: .cancel) {
 				showingAlert.toggle()
 			} label: {
-				Text("Cancelar")
+				Text("cancel")
 			}
 
 		}, message: {
-			Text("Isso é um alerta")
+			Text("alert-message")
 		})
-		.navigationTitle("Swift UI")
     }
 }
 
